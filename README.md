@@ -2,4 +2,5 @@ dotfiles
 ========
 
 linux configuration files
-.vimrc
+*.bashrc
+*.vimrc
