@@ -5,3 +5,4 @@ dotfiles
 * .bashrc
 * .vimrc
 * .hgignore (Play Framework application)
+* .SublimText2
