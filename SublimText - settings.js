@@ -1,12 +1,21 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
-	"font_size": 11,
+	"font_options": "subpixel_antialias",
+	"font_size": 10,
 	"highlight_line": true,
 	"line_numbers": true,
 	"remember_open_files": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"caret_style": "phase",
+	"fade_fold_buttons": false,
+	"bold_folder_labels": true,
+	"highlight_modified_tabs": true,
+	"vintage_start_in_command_mode": true,
+	"tab_completion": false,
+	"word_wrap": true,
+	"auto_complete_commit_on_tab": true
 }
