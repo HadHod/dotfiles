@@ -6,7 +6,6 @@
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
-	"font_face": "Consolas",
 	"font_options": "subpixel_antialias",
 	"font_size": 10,
 	"highlight_line": true,
