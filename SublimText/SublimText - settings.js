@@ -6,10 +6,15 @@
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
+	"font_face": "Consolas",
 	"font_options": "subpixel_antialias",
 	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"line_numbers": true,
 	"remember_open_files": true,
 	"tab_completion": false,
@@ -17,9 +22,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": true,
-	"indent_guide_options": [
-        	"draw_normal",
-        	"draw_active"
-    	]
+	"word_wrap": true
 }
