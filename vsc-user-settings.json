@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.renderWhitespace": "boundary",
+    "editor.fontSize": 12,
+    "files.trimTrailingWhitespace": true,
+}
