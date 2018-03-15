@@ -1,6 +1,3 @@
-"Skroty
-"Ctrl + N - uzupelnianie skladni
-
 syntax on              "kolorowanie skladni
 set autoindent         "automatyczne wciecia
 set number             "numerowanie linii
