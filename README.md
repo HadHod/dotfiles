@@ -1,13 +1,13 @@
 dotfiles
 ========
 
-##### linux configuration files #####
-* .bashrc
+##### linux #####
+- [x] .bashrc
+- [x] .vimrc
 
-##### IDEs: #####
-* Formatter_Scala_ScalaIDE4.properties
-* .vimrc
+##### IDEs #####
+- [x] Formatter_Scala_ScalaIDE4.properties
+- [x] vsc-user-settings.json
 
-##### TODO #####
-* add tslint.json
-
+##### linters #####
+- [ ] add tslint.json
