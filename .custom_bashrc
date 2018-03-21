@@ -1,0 +1,14 @@
+# source /home/[username]/.custom_bashrc
+
+#aliases
+alias l='ls -g -h -i -q -F --group-directories-first --color=auto'
+alias ll='ls -alF'
+
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+
+alias df="df -Tha --total"
+
+#PATH
+export PATH=/home/hadhod/Moje/Programy/activator-1.2.10-minimal:$PATH
