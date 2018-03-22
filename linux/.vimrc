@@ -1,13 +1,13 @@
-syntax on              "kolorowanie skladni
-set autoindent         "automatyczne wciecia
-set number             "numerowanie linii
-set noet ts=4 sw=4     "dlugosc tabulacji na ilosc bialych znakow
-set ruler              "statystyki
-let g:html_use_css="1" "korzystanie ze styli CSS dla plików HTML
-se tenc=utf8           "kodowanie w UTF-8
-set hlsearch           "podswietlanie szukanego wyrazu
+syntax on
+set autoindent
+set number
+set noet ts=4 sw=4     "tab size
+set ruler              "stats
+let g:html_use_css="1"
+set enc=utf8
+set hlsearch           "highlight search phraze
 
-"pokreslanie bialych znakow na koncach linii http://sartak.org/2011/03/end-of-line-whitespace-in-vim.html
+"show whitespace at end of line http://sartak.org/2011/03/end-of-line-whitespace-in-vim.html
 autocmd InsertEnter * syn clear EOLWS | syn match EOLWS excludenl /\s\+\%#\@!$/
 autocmd InsertLeave * syn clear EOLWS | syn match EOLWS excludenl /\s\+$/
 highlight EOLWS ctermbg=red guibg=red
