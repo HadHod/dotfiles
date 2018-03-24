@@ -6,12 +6,12 @@ print_in_color () {
     echo -e "${COLOR_GREEN}"$1"${COLOR_NORMAL}"
 }
 
-command_exists () {
+is_command_exists () {
     type "$1" &> /dev/null; # || [command -v "$1"]
 }
 
 install_package () {
-    if command_exists "$1"; then
+    if is_command_exists "$1"; then
         print_in_color "$1 already installed"
     else
         print_in_color "Installing $1 ..."
@@ -25,11 +25,11 @@ install_package vim
 # install_package nvm
 install_package htop
 
-dpkg --list | grep 'htop\|vim'
+dpkg --list | grep 'vim\|nvm\|htop'
 
 print_in_color "linux packages installed\n"
 
-if command_exists npm; then
+if is_command_exists npm; then
     print_in_color "Installing npm global packages ..."
 
     npm install -g @angular/cli              # https://www.npmjs.com/package/@angular/cli
