@@ -4,7 +4,7 @@ dotfiles
 ##### linux #####
 - [x] .bashrc
 - [x] .vimrc
-- [ ] mega_install
+- [x] mega_install
 
 ##### IDEs #####
 - [x] Formatter_Scala_ScalaIDE4.properties
