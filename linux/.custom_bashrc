@@ -10,5 +10,7 @@ alias grep='grep --color=auto'
 
 alias df="df -Tha --total"
 
+alias uninstall="sudo apt-get purge --auto-remove"
+
 #PATH
 export PATH=/home/hadhod/Moje/Programy/activator-1.2.10-minimal:$PATH
