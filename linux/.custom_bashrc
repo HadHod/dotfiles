@@ -6,8 +6,8 @@ alias ll='ls -alF  --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
-alias df="df -Tha --total"
-alias uninstall="sudo apt-get purge --auto-remove"
+alias df='df -Tha --total'
+alias uninstall='sudo apt-get purge --auto-remove'
 
 alias goline='git log --oneline --decorate --all --stat --pickaxe-all'
 alias gograph='git log --oneline --decorate --all --graph --stat --pickaxe-all'

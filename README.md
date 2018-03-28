@@ -12,4 +12,4 @@ dotfiles
 - [x] vsc-user-settings.json
 
 ##### linters #####
-- [ ] tslint.json
+- [x] tslint.json
