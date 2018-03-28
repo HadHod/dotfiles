@@ -23,6 +23,7 @@ print_in_color "Installing linux packages ..."
 
 install_package vim
 install_package htop
+install_package kdenlive
 
 dpkg --list | grep 'vim\|htop'
 
