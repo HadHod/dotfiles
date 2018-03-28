@@ -13,7 +13,3 @@ dotfiles
 
 ##### linters #####
 - [ ] tslint.json
-
-##### TODO #####
-
-* add git aliases https://zwischenzugs.com/2018/03/26/git-log-the-good-parts/
