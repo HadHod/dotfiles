@@ -13,3 +13,7 @@ dotfiles
 
 ##### linters #####
 - [x] tslint.json
+
+##### TODO #####
+
+* add git install and configuration (https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-8)
