@@ -21,6 +21,8 @@ install_package () {
 
 print_in_color "Installing linux packages ..."
 
+sudo apt-get update
+
 install_package vim
 install_package htop
 install_package kdenlive
@@ -28,6 +30,13 @@ install_package kdenlive
 dpkg --list | grep 'vim\|htop'
 
 print_in_color "linux packages installed\n"
+
+print_in_color "setting up git\n"
+
+git config --global user.name "HadHod"
+git config --global user.email maciej.mlynarski@gmail.com
+
+git config --list
 
 if is_command_available npm; then
     print_in_color "Installing npm global packages ..."
