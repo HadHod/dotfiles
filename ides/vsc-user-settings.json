@@ -1,6 +1,10 @@
 {
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "workbench.colorTheme": "Monokai Dimmed",
-    "editor.renderWhitespace": "boundary",
     "editor.fontSize": 12,
+    "editor.renderWhitespace": "boundary",
     "files.trimTrailingWhitespace": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
+    "editor.lineNumbers": "on"
 }
