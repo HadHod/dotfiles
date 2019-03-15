@@ -43,7 +43,6 @@ if is_command_available npm; then
 
     npm install -g @angular/cli              # https://www.npmjs.com/package/@angular/cli
     npm install -g npm-check-updates         # https://www.npmjs.com/package/npm-check-updates
-    npm install -g create-react-native-app   # https://www.npmjs.com/package/create-react-native-app
 
     npm ls -g -depth=0                       # show installed global packages
 else
