@@ -5,7 +5,6 @@
     "rulesDirectory": [
         "node_modules/codelyzer"
     ],
-    "indent": [true, "spaces", 4],
     "rules": {
         "arrow-return-shorthand": true,
         "callable-types": true,
@@ -17,10 +16,7 @@
         "curly": true,
         "eofline": true,
         "forin": true,
-        "import-blacklist": [
-            true,
-            "rxjs"
-        ],
+        "no-any": true,
         "import-spacing": true,
         "indent": [true, "spaces", 4],
         "interface-over-type-literal": true,
@@ -29,7 +25,7 @@
             true,
             140
         ],
-        "member-access": false,
+        "member-access": [true, "check-accessor", "check-parameter-property"],
         "member-ordering": [
             true,
             {
@@ -41,10 +37,23 @@
                 ]
             }
         ],
+        "ban-types": [
+            true, [
+                ["Object", "Use {} instead."],
+                ["Function", "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."],
+                ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
+                ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
+                ["String", "Avoid using the `String` type. Did you mean `string`?"],
+                ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
+            ]
+        ],
         "no-arg": true,
         "no-bitwise": true,
         "no-console": [
             true,
+            "log",
+            "error",
+            "warn",
             "debug",
             "info",
             "time",
@@ -54,7 +63,7 @@
         "no-construct": true,
         "no-debugger": true,
         "no-duplicate-super": true,
-        "no-empty": false,
+        "no-empty": true,
         "no-empty-interface": true,
         "no-eval": true,
         "no-inferrable-types": false,
@@ -69,7 +78,16 @@
         "no-unused-expression": true,
         "no-use-before-declare": true,
         "no-var-keyword": true,
+        "no-internal-module": true,
+        "no-var-requires": true,
         "object-literal-sort-keys": false,
+        "ban-comma-operator": true,
+        "no-conditional-assignment": true,
+        "no-duplicate-variable": true,
+        "no-invalid-template-strings": true,
+        "no-invalid-this": true,
+        "no-this-assignment": true,
+        "no-boolean-literal-compare": true,
         "one-line": [
             true,
             "check-open-brace",
@@ -89,7 +107,12 @@
         ],
         "triple-equals": [
             true,
-            "allow-null-check"
+            "allow-null-check",
+            "parameter"
+        ],
+        "typedef": [
+            true,
+            "call-signature"
         ],
         "typedef-whitespace": [
             true,
@@ -126,7 +149,9 @@
         "use-life-cycle-interface": true,
         "use-pipe-transform-interface": true,
         "component-class-suffix": true,
-        "directive-class-suffix": true
+        "directive-class-suffix": true,
+        "array-type": [true, "array"],
+        "trailing-comma": [true, {"multiline": "always", "singleline": "never"}]
     },
     "linterOptions": {
         "exclude": [
