@@ -16,7 +16,7 @@
         "curly": true,
         "eofline": true,
         "forin": true,
-        "no-any": true,
+        "no-any": false,
         "import-spacing": true,
         "indent": [true, "spaces", 4],
         "interface-over-type-literal": true,
@@ -89,6 +89,7 @@
         "no-this-assignment": true,
         "no-boolean-literal-compare": true,
         "no-unused-variable": true,
+        "no-unused-locals": true,
         "one-line": [
             true,
             "check-open-brace",
