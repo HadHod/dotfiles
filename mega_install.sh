@@ -26,6 +26,7 @@ sudo apt-get update
 install_package vim
 install_package htop
 install_package kdenlive
+install_package flameshot
 
 dpkg --list | grep 'vim\|htop'
 
