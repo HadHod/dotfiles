@@ -10,28 +10,6 @@ is_command_available () {
     type "$1" &> /dev/null; # || [command -v "$1"]
 }
 
-install_package () {
-    if is_command_available "$1"; then
-        print_in_color "$1 already installed"
-    else
-        print_in_color "Installing $1 ..."
-        sudo apt-get install "$1"
-    fi
-}
-
-print_in_color "Installing linux packages ..."
-
-sudo apt-get update
-
-install_package vim
-install_package htop
-install_package kdenlive
-install_package flameshot
-
-dpkg --list | grep 'vim\|htop'
-
-print_in_color "linux packages installed\n"
-
 print_in_color "setting up git\n"
 
 git config --global user.name "HadHod"
